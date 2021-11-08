@@ -4,10 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --base-href /develop/angular-pwa-poc/ --source-map",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "start-pwa": "ng build && http-server -p 8080 -c-1 dist/angular-pwa-poc"
+    "start-pwa": "ng build --base-href /develop/angular-pwa-poc/ --source-map \n http-server-spa dist/angular-pwa-poc/ index.html 4200"
   },
   "private": true,
   "dependencies": {
