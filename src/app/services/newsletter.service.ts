@@ -11,7 +11,6 @@ import {HttpClient} from "@angular/common/http";
   }
 
   addPushSubscriber(sub:any) {
-    console.log(sub);
     this.http.post('https://ep-angular-pwa-poc.herokuapp.com/notifications', {sub}).subscribe();
   }
 }
