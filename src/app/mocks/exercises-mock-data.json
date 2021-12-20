@@ -1,0 +1,544 @@
+{
+  "exercises": [
+    {
+      "name": "Test 1",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 5,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": "Passen",
+      "type": 0
+    },
+    {
+      "name": "Test 2",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 5,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": "Passen",
+      "type": 0
+    },
+    {
+      "name": "Test 3",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 3,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": null,
+      "type": 0
+    },
+    {
+      "name": "Test 4",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 5,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": null,
+      "type": 0
+    },
+    {
+      "name": "Test 5",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 7,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": "Passen",
+      "type": 0
+    },
+    {
+      "name": "Test 6",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 4,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": null,
+      "type": 0
+    },
+    {
+      "name": "Test 7",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 5,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": "Passen",
+      "type": 0
+    },
+    {
+      "name": "Test 8",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 8,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": "Passen",
+      "type": 0
+    },
+    {
+      "name": "Test 9",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 10,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": null,
+      "type": 0
+    },
+    {
+      "name": "Test 10",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 20,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": "Passen",
+      "type": 1
+    },
+    {
+      "name": "Test 20",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 15,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": "Passen",
+      "type": 1
+    },
+    {
+      "name": "Test 30",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 30,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": null,
+      "type": 1
+    },
+    {
+      "name": "Test 40",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 10,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": null,
+      "type": 1
+    },
+    {
+      "name": "Test 50",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 45,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": "Passen",
+      "type": 1
+    },
+    {
+      "name": "Test 60",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 15,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": null,
+      "type": 1
+    },
+    {
+      "name": "Test 70",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 30,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": "Passen",
+      "type": 1
+    },
+    {
+      "name": "Test 80",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 15,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": "Passen",
+      "type": 1
+    },
+    {
+      "name": "Test 90",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 10,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": null,
+      "type": 1
+    },
+    {
+      "name": "Test 100",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 5,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": "Passen",
+      "type": 2
+    },
+    {
+      "name": "Test 200",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 5,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": "Passen",
+      "type": 2
+    },
+    {
+      "name": "Test 300",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 3,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": null,
+      "type": 2
+    },
+    {
+      "name": "Test 400",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 5,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": null,
+      "type": 2
+    },
+    {
+      "name": "Test 500",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 7,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": "Passen",
+      "type": 2
+    },
+    {
+      "name": "Test 600",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 4,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": null,
+      "type": 2
+    },
+    {
+      "name": "Test 700",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 5,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": "Passen",
+      "type": 2
+    },
+    {
+      "name": "Test 800",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 8,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": "Passen",
+      "type": 2
+    },
+    {
+      "name": "Test 900",
+      "description": "Test Beschreibung",
+      "player": 6,
+      "duration": 10,
+      "equipment": [
+        {
+          "name": "Bälle",
+          "description": "",
+          "amount": 2
+        },
+        {
+          "name": "Hütchen",
+          "description": "",
+          "amount": 4
+        }
+      ],
+      "focus": null,
+      "type": 2
+    }
+  ]
+}

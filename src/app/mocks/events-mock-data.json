@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "name": "Training 1",
+      "startTime": "2021-12-24T18:00:00.000Z",
+      "endTime": "2021-12-24T20:00:00.000Z",
+      "participants": null,
+      "eventType": 0,
+      "address": null,
+      "_id": 1,
+      "team": {
+        "teamName": "Team 1",
+        "trainer": [],
+        "player": [],
+        "_id": 2
+      },
+      "exercisePlan": {
+        "warmUpDuration": 15,
+        "mainPartDuration": 60,
+        "coolDownDuration": 15,
+        "warmUpExercises": [],
+        "mainPartExercises": [],
+        "coolDownExercises": [],
+        "focus": "Passen"
+      }
+    }
+  ]
+}

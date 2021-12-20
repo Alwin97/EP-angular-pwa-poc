@@ -7,6 +7,7 @@ export class Exercise {
   duration?: number;
   equipment?: Equipment[];
   focus?: string;
+  type?: number;
 
   constructor(exercise: Exercise) {
     this.name = exercise.name;
@@ -15,5 +16,6 @@ export class Exercise {
     this.duration = exercise.duration;
     this.equipment = exercise.equipment;
     this.focus = exercise.focus;
+    this.type = exercise.type;
   }
 }

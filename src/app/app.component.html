@@ -1,4 +1,40 @@
+<!--<div class="wrapper">-->
+<!--  <h1>{{title}} works!</h1>-->
+<!--  <button (click)="subscribeToNotifications()">Subscribe to push-notifications</button>-->
+<!--</div>-->
+
 <div class="wrapper">
-  <h1>{{title}} works!</h1>
-  <button (click)="subscribeToNotifications()">Subscribe to push-notifications</button>
+  <h2 *ngFor="let event of events" (click)="openModal(event)">{{event.name}}</h2>
+  <div *ngIf="currentTraining" class="testing-wrapper">
+    <button (click)="fillExercisePlan()">Trainingsplan befüllen</button>
+    <div class="grid">
+      <div>
+        <h3>{{currentTraining.name}}</h3>
+        <p>Schwerpunkt: <b>{{currentTraining.exercisePlan.focus}}</b></p>
+
+        <br>
+
+        <p><b>Warm Up:</b> {{currentTraining.exercisePlan.warmUpDuration}} Minuten</p>
+        <p *ngFor="let e of currentTraining.exercisePlan.warmUpExercises" (click)="removeExercise(e)"><i>{{e.name}}</i>, {{e.duration}} Minuten</p>
+        <br>
+        <p><b>Hauptteil:</b> {{currentTraining.exercisePlan.mainPartDuration}} Minuten</p>
+        <p *ngFor="let e of currentTraining.exercisePlan.mainPartExercises" (click)="removeExercise(e)"><i>{{e.name}}</i>, {{e.duration}} Minuten</p>
+        <br>
+        <p><b>Cool Down:</b> {{currentTraining.exercisePlan.coolDownDuration}} Minuten</p>
+        <p *ngFor="let e of currentTraining.exercisePlan.coolDownExercises" (click)="removeExercise(e)"><i>{{e.name}}</i>, {{e.duration}} Minuten</p>
+
+        <br>
+      </div>
+      <div>
+        <div *ngFor="let exercise of exercises" (click)="addExercise(exercise)">
+          <h4>{{exercise.name}}</h4>
+          <p>{{exercise.duration}} Minuten</p>
+          <p *ngIf="exercise.type === 0">Warm Up</p>
+          <p *ngIf="exercise.type === 1">Main Part</p>
+          <p *ngIf="exercise.type === 2">Cool Down</p>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

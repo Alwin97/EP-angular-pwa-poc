@@ -1,9 +1,9 @@
-import {Adress} from "./adress.model";
+import {Address} from "./address.model";
 
 export class User {
   name?: string;
   surname?: string;
-  address?: Adress;
+  address?: Address;
   birthdate?: Date;
   role?: number;
   _id?: string

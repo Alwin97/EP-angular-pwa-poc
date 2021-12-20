@@ -1,12 +1,13 @@
 import {Exercise} from "./exercise.model";
 
 export class ExercisePlan {
-  warmUpDuration?: string;
+  warmUpDuration?: number;
   mainPartDuration?: number;
   coolDownDuration?: number;
   warmUpExercises?: Exercise[];
   mainPartExercises?: Exercise[];
   coolDownExercises?: Exercise[];
+  focus?: string;
 
   constructor(exercisePlan: ExercisePlan) {
     this.warmUpDuration = exercisePlan.warmUpDuration;
@@ -15,5 +16,6 @@ export class ExercisePlan {
     this.warmUpExercises = exercisePlan.warmUpExercises;
     this.mainPartExercises = exercisePlan.mainPartExercises;
     this.coolDownExercises = exercisePlan.coolDownExercises;
+    this.focus = exercisePlan.focus;
   }
 }

@@ -3,5 +3,19 @@
     height: 100%;
     display: grid;
     place-content: center;
+
+    .testing-wrapper {
+      display: grid;
+      align-content: center;
+
+      .grid {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 50px;
+        max-height: 800px;
+        overflow: scroll;
+      }
+    }
   }
 }
